@@ -19,8 +19,11 @@ Along with solving logic-based problems, I'm also building practical **mini-proj
 ## 🗂️ Repository Structure
 
 /C1/ → Beginner level: basic logic, conditions, loops, and simple operations
+
 /C2/ → Intermediate: matrices, strings, file handling, and multi-dimensional logic
+
 /C3/ → Advanced: refactoring and optimizing code, handling date/time logic, and writing clean, efficient solutions
+
 /Projects/ → Mini-projects applying what I've learned
 
 

@@ -85,7 +85,7 @@ stDate IncreaseDateByOneDay(stDate Date)
 	return Date;
 }
 
-int CalculateVacationDays(stDate DateFrom, stDate DateTo)
+short CalculateVacationDays(stDate DateFrom, stDate DateTo)
 {
 	int Days = 0;
 	while (IsDate1BeforeDate2(DateFrom, DateTo))

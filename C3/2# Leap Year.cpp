@@ -3,22 +3,9 @@
 
 using namespace std;
 
-bool IsLeapYear(short Year)
-{
-	if (Year % 400 == 0) {
-		return true;
-	}
-	else if (Year % 100 == 0) {
-		return false;
-	}
-	else if (Year % 4 == 0) {
-		return true;
-	}
-	else {
-		return false;
-	}
+bool IsLeapYear(short Year) {
 
-	
+	return ((Year % 4 == 0) && (Year % 100) != 0) || (Year % 400) == 0;
 }
 
 	
@@ -43,4 +30,5 @@ int main() {
 	system("pause>0");
 
 	return 0;
+
 }
